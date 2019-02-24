@@ -146,7 +146,7 @@ body {
     opacity: 1;
     visibility: inherit; }
 
-.reveal .slides section .fragment.highlight-red,
+.reveal .slides section .fragment.highlight-red,.fragment.highlight-laravel,
 .reveal .slides section .fragment.highlight-current-red,
 .reveal .slides section .fragment.highlight-green,
 .reveal .slides section .fragment.highlight-current-green,
@@ -154,6 +154,9 @@ body {
 .reveal .slides section .fragment.highlight-current-blue {
   opacity: 1;
   visibility: inherit; }
+
+.reveal .slides section .fragment.highlight-laravel.visible {
+  color: #f55247; }
 
 .reveal .slides section .fragment.highlight-red.visible {
   color: #ff2c2d; }
@@ -1589,3 +1592,15 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: #f55247;
+}
+
+.text-purple {
+  color: purple;
+}
